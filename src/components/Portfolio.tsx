@@ -54,8 +54,8 @@ const Portfolio = () => {
     return (
         <section id="portfolio" className="py-32 relative">
             <div className="container max-w-[1400px] mx-auto px-8">
-                <div className="text-center mb-24 opacity-0 translate-y-8 animate-fade-in-up">
-                    <h2 className="text-4xl md:text-5xl lg:text-6xl mb-8  text-white">Portfolio</h2>
+                <div className="text-center mb-24 opacity-55 translate-y-8 animate-fade-in-up">
+                    <h2 className="text-4xl md:text-5xl lg:text-6xl mb-8 text-white">Portfolio</h2>
                     <p className="text-base md:text-lg text-white">
                         A curated selection of my recent work
                     </p>
