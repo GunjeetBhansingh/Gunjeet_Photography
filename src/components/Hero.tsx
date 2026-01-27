@@ -33,18 +33,18 @@ const Hero = () => {
             ref={heroRef}
         >
             <div className="grid grid-cols-1 md:grid-cols-2 gap-16 md:gap-24 items-center max-w-[1400px] mx-auto px-8">
-                <div className="opacity-0 animate-fade-in-up" style={{ animationDelay: '0.3s' }}>
-                    <h1 className="text-5xl md:text-7xl lg:text-8xl font-light mb-4 leading-[1.1]">
+                <div className="opacity-55 animate-fade-in-up" style={{ animationDelay: '0.5s' }}>
+                    <h1 className="text-5xl text-white md:text-7xl lg:text-8xl font-light mb-4 leading-[1.1]">
                         Capturing
                         <br />
                         Moments in
                         <br />
-                        Darkness
+                        Emotions
                     </h1>
-                    <p className="text-xl md:text-2xl text-gray-light font-light mb-8 font-body">
+                    <p className="text-xl md:text-2xl text-white font-light mb-8 font-body">
                         Visual Storyteller & Fine Art Photographer
                     </p>
-                    <p className="text-base md:text-lg text-gray leading-relaxed max-w-[500px]">
+                    <p className="text-base md:text-lg text-white leading-relaxed max-w-[500px]">
                         Exploring the interplay of light and shadow, creating cinematic narratives
                         through the lens. Every frame tells a story of mystery, emotion, and artistry.
                     </p>
@@ -59,11 +59,11 @@ const Hero = () => {
                         View Portfolio
                     </a>
                 </div>
-                <div className="opacity-0 animate-fade-in" style={{ animationDelay: '0.6s' }}>
+                <div className="opacity-55 animate-fade-in" style={{ animationDelay: '0.6s' }}>
                     <img
                         src="/images/photographer.png"
                         alt="Photographer Portrait"
-                        className="w-full h-auto block rounded-lg shadow-strong transition-transform duration-slow hover:scale-105"
+                        className="w-full h-auto block rounded-lg shadow-2xl transition-transform duration-75 hover:scale-105"
                     />
                 </div>
             </div>

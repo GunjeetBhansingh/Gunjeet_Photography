@@ -37,20 +37,20 @@ const About = () => {
                         <h3 className="text-2xl md:text-3xl lg:text-4xl mb-4">
                             Crafting Stories Through Shadow & Light
                         </h3>
-                        <p className="text-base md:text-lg text-muted-gray font-light leading-relaxed mb-4">
+                        <p className="text-base md:text-lg text-slate-400 font-light leading-relaxed mb-4">
                             With over a decade of experience in fine art photography, I specialize in
                             creating cinematic imagery that explores the delicate balance between
                             darkness and illumination. My work is characterized by deep blacks,
                             subtle gradients, and a minimalist aesthetic that emphasizes emotion
                             over exposition.
                         </p>
-                        <p className="text-base md:text-lg text-muted-gray font-light leading-relaxed mb-4">
+                        <p className="text-base md:text-lg text-slate-400 font-light leading-relaxed mb-4">
                             Each photograph is a carefully composed narrative, inviting viewers to
                             discover hidden details and interpret their own stories within the
                             shadows. I believe that what remains unseen is often as powerful as
                             what is revealed.
                         </p>
-                        <p className="text-base md:text-lg text-muted-gray font-light leading-relaxed mb-4">
+                        <p className="text-base md:text-lg text-slate-400 font-light leading-relaxed mb-4">
                             My approach combines classical low-key lighting techniques with modern
                             digital artistry, resulting in timeless images that evoke mystery,
                             contemplation, and visual poetry.

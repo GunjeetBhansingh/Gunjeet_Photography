@@ -22,8 +22,8 @@ const Navigation = () => {
     return (
         <nav
             className={`fixed top-0 left-0 w-full z-[1000] transition-all duration-normal ${scrolled
-                    ? 'py-4 bg-black/95 shadow-medium'
-                    : 'py-8 bg-black/80 backdrop-blur-md'
+                ? 'py-4 bg-black/95 shadow-medium'
+                : 'py-8 bg-black/80 backdrop-blur-md'
                 }`}
         >
             <div className="container max-w-[1400px] mx-auto px-8">
@@ -43,7 +43,7 @@ const Navigation = () => {
                             <li key={section}>
                                 <a
                                     href={`#${section}`}
-                                    className="text-muted-gray no-underline text-sm font-normal tracking-wider uppercase relative transition-colors duration-fast hover:text-white after:content-[''] after:absolute after:bottom-[-4px] after:left-0 after:w-0 after:h-[1px] after:bg-white after:transition-all after:duration-normal hover:after:w-full"
+                                    className="text-muted-gray text-white no-underline text-sm font-normal tracking-wider uppercase relative transition-colors duration-fast hover:text-white after:content-[''] after:absolute after:bottom-[-4px] after:left-0 after:w-0 after:h-[1px] after:bg-white after:transition-all after:duration-normal hover:after:w-full"
                                     onClick={(e) => {
                                         e.preventDefault()
                                         scrollToSection(section)

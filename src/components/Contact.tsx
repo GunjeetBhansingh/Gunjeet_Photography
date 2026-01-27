@@ -30,13 +30,13 @@ const Contact = () => {
         <section id="contact" className="py-32 relative">
             <div className="container max-w-[1400px] mx-auto px-8">
                 <div className="text-center mb-24 reveal">
-                    <h2 className="text-4xl md:text-5xl lg:text-6xl mb-8">Get in Touch</h2>
-                    <p className="text-base md:text-lg text-muted-gray">
+                    <h2 className="text-4xl text-white md:text-5xl lg:text-6xl mb-8">Get in Touch</h2>
+                    <p className="text-base md:text-lg text-white">
                         Let's create something extraordinary together
                     </p>
                 </div>
                 <div className="text-center max-w-[600px] mx-auto reveal" ref={contactRef}>
-                    <p className="text-base md:text-lg text-muted-gray font-light leading-relaxed mb-4">
+                    <p className="text-base md:text-lg text-white font-light leading-relaxed mb-4">
                         Available for commissioned work, collaborations, and fine art prints.
                         Whether you're looking for editorial photography, portrait sessions,
                         or custom artwork, I'd love to hear about your vision.

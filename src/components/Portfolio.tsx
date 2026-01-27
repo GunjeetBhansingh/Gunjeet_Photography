@@ -77,7 +77,7 @@ const Portfolio = () => {
                             />
                             <div className="absolute bottom-0 left-0 right-0 p-8 gradient-overlay translate-y-full transition-transform duration-normal group-hover:translate-y-0">
                                 <h3 className="text-2xl font-medium mb-2">{item.title}</h3>
-                                <p className="text-sm text-gray-light uppercase tracking-[0.1em]">
+                                <p className="text-sm text-gray-light uppercase tracking-widest">
                                     {item.category}
                                 </p>
                             </div>
