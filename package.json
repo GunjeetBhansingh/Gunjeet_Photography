@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://CodeArtist7071.github.io/gunjeet_photography",
+  "homepage": "https://gunjeetbhansingh.github.io/Gunjeet_Photography",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
